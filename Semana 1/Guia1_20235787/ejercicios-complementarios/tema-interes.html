@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Mouse+Memoirs&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['Mouse Memoirs', 'sans-serif'],
+            mono: ['Playfair Display', 'monospace'],
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-sky-100 text-gray-800 font-sans text-2xl ">
+    <div class="container mx-auto p-4">
+        <nav class="bg-sky-200 shadow-lg rounded-lg p-4 mb-6">
+            <ul class="flex flex-col sm:flex-row sm:justify-around gap-4 text-center">
+                <li><a href="#intro" class="text-yellow-800 hover:text-yellow-400 font-bold ">Introducción</a></li>
+                <li><a href="#jugab" class="text-yellow-800 hover:text-yellow-400 font-bold">Jugabilidad</a></li>
+                <li><a href="#entregas" class="text-yellow-800 hover:text-yellow-400 font-bold">Entregas</a></li>
+                <li><a href="#personajes" class="text-yellow-800 hover:text-yellow-400 font-bold">Personajes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <section class="p-5">
+                <img src="../recursos-ejercicio-complementario/logo.png" alt="" class="w-90 mx-auto hover:scale-125">
+                <h1 class="text-center text-4xl font-bold text-primary mt-4 p-6">Animal Crossing</h1>
+                <div class="bg-amber-300 p-3 rounded-lg">
+                    <h2 class="text-3xl font-bold mt-6" id="intro">Introducción</h2>
+                    <p class="family font-mono text-sm">Animal Crossing es una serie de videojuegos acogedores de simulación de vida publicada por Nintendo y creada por Katsuya Eguchi y Hisashi Nogami, en la que el jugador vive en un pueblo habitado por animales antropomórficos, llevando a cabo diversas actividades. </p>
+                    <img src="../recursos-ejercicio-complementario/intro.jpg" alt="" class="rounded-lg shadow-md mt-4">
+                    <p class="family font-mono text-sm mt-4">La serie destaca por su sistema de juego abierto y su amplio uso del reloj y el calendario interno en el sistema para simular el paso real del tiempo.</p>
+                </div>
+
+        </section>
+
+        
+        <section class="p-5">
+            <div class="bg-green-300 p-3 rounded-lg">
+                <h2 class="text-4xl font-bold mt-6" id="jugab">Jugabilidad</h2>
+                <p class="mt-4 text-justify font-mono text-sm">En los títulos de Animal Crossing, el jugador asume el papel de un personaje humano que se muda a una aldea rural poblada de animales antropomorfos, donde vive indefinidamente. El juego es abierto ya que no cuenta con objetivos definidos. Algunas actividades incluyen recolectar artículos, pescar, plantar flores, decorar la vivienda y socializar con los residentes de la aldea. Animal Crossing se caracteriza por el juego en tiempo real, utilizando el reloj y el calendario internos de la consola de videojuegos. Por lo tanto, el paso del tiempo afecta al mundo ficticio y a los eventos que transcurren en él.​</p>
+                <p class="mt-4 text-justify font-mono text-sm">La recolección de artículos es una faceta importante de Animal Crossing: el jugador puede explorar la aldea y recolectar objetos, incluidas frutas, conchas marinas y artículos desechados. Casi todos los objetos se pueden vender por bayas, la moneda del juego. Los jugadores recolectan objetos para obtener más bayas, que luego pueden usarse para comprar muebles, ropa, expansiones del hogar y demás artículos. Hay varias herramientas especializadas disponibles para otras actividades como la pesca y la recolección de insectos. Se pueden donar al museo del pueblo artículos especiales, como fósiles y pinturas. El jugador puede optar por socializar con los otros animales residentes participando en una conversación, enviando y recibiendo cartas, haciendo trueques o jugando al escondite. Los residentes pueden entrar o salir de la aldea dependiendo de las acciones del usuario.</p>
+                <img src="../recursos-ejercicio-complementario/jugabilidad.jpeg" alt="" class="rounded-lg shadow-md mt-4">
+            </div>
+
+        </section>
+    
+        <section class="p-5">
+            <div class="bg-cyan-300 p-3 rounded-lg">
+                <h2 class="text-4xl font-bold mt-6" id="entregas">Entregas</h2>
+                <ol class="list-decimal list-inside mt-4 space-y-4">
+                    <li class="flex flex-col sm:flex-row items-center gap-4"><img src="../recursos-ejercicio-complementario/gamecube.jpg" alt="" class="w-40 rounded-lg shadow-md hover:grayscale">
+                        <p class="mt-4 text-justify font-mono text-sm">Animal Forest para Nintendo 64, publicado solo en Japón el 14 de abril de 2001. En Estados Unidos fue lanzado en 2002 bajo el nombre de Animal Crossing para Nintendo GameCube.</p></li>
+                    <li class="flex flex-col sm:flex-row items-center gap-4"><img src="../recursos-ejercicio-complementario/ds.jpg" alt="" class="w-40 rounded-lg shadow-md hover:grayscale">
+                        <p class="mt-4 text-justify font-mono text-sm">Animal Crossing: Wild World para Nintendo DS, lanzado en Japón el 23 de noviembre de 2005 y llegando al resto de países en los meses posteriores.</p></li>
+                    <li class="flex flex-col sm:flex-row items-center gap-4"> <img src="../recursos-ejercicio-complementario/wii.jpg" alt="" class="w-40 rounded-lg shadow-md hover:grayscale">
+                        <p class="mt-4 text-justify font-mono text-sm">Animal Crossing: City Folk o Animal Crossing: Let's Go to the City fue publicado en invierno de 2008 para Nintendo Wii.</p></li>
+                    <li class="flex flex-col sm:flex-row items-center gap-4"><img src="../recursos-ejercicio-complementario/3ds.jpg" alt="" class="w-40 rounded-lg shadow-md hover:grayscale">
+                        <p class="mt-4 text-justify font-mono text-sm">Animal Crossing: New Leaf salió a la venta para Nintendo 3DS el 8 de noviembre de 2012 en Japón y llegó a los mercados internacionales a lo largo de 2013.</p></li>
+                    <li class="flex flex-col sm:flex-row items-center gap-4"><img src="../recursos-ejercicio-complementario/switch.jpg" alt="" class="w-40 rounded-lg shadow-md hover:grayscale">
+                        <p class="mt-4 text-justify font-mono text-sm">Animal Crossing: New Horizons fue lanzado mundialmente el 20 de marzo de 2020 para Nintendo Switch.</p></li>
+                </ol>
+            </div>
+        </section>
+    
+    
+        <section class="p-5">
+            <div class="bg-red-300 p-3 rounded-lg">
+                <h2 class="text-4xl font-bold mt-6" id="personajes">Personajes</h2>
+                <p class="mt-4 text-justify font-mono text-sm">Todos son animales antropomorfos, es decir, representan a un animal pero actúan como seres humanos. Estos hablan en «Animalés», idioma inventado por el propio juego y que se basa en la alteración del sonido en su habla. También existe el «bebebés».</p>
+                <img src="../recursos-ejercicio-complementario/personajes.jpg" alt="" class="rounded-lg shadow-md mt-4 mx-auto">
+                <p class="mt-2 text-justify font-mono text-sm">De izquierda a derecha: Sócrates, Totakeke, Tom Nook, Tendo, Nendo, Canela y Pili.</p>
+        
+                <p class="mt-4 text-justify font-mono text-sm">Tom Nook es un tanuki, dueño de una tienda y corredor de bienes raíces, que se encarga de dar préstamos al jugador para construir y ampliar su casa. Otro personaje destacado es Totakeke, un músico viajero canino basado en el compositor de la serie, Kazumi Totaka, y toca ciertas noches en el club de la ciudad.</p>
+                <p class="mt-4 text-justify font-mono text-sm">En Animal Crossing: New Horizons, Canela hace una aparición como administradora de la comunidad de la ciudad y secretaria de Tom Nook. Permite a los jugadores cambiar la bandera y el tono de la ciudad, así como restablecer ciertos aspectos de la vida de la ciudad (apodos y atuendos de aldeanos). Junto a ella, Tendo y Nendo regentan Nook's Cranny (MiniNook). Hermanas Manitas también ofrece ropa para el personaje y está dirigida por dos hermanas, Pili y Mili. Dos nuevos personajes, Rafa y Rodri, administran Dodo Airlines, el único aeropuerto en la isla desierta.</p>
+        
+                    <h3 class="text-2xl font-bold mt-6">Aldeano</h3>
+                    <p class="mt-4 text-justify font-mono text-sm">El Aldeano o Aldeana es el personaje representativo del Jugador de Animal Crossing.</p>
+                    <img src="../recursos-ejercicio-complementario/villager.jpg" alt="" class="rounded-lg shadow-md mt-4 mx-auto">
+                    <h3 class="text-2xl font-bold mt-6">Vecinos</h3>
+                    <p class="mt-4 text-justify font-mono text-sm">Los vecinos son principales NPC de la serie Animal Crossing. Ellos viven una vida pacífica repartidos por el pueblo de los jugadores. Hacen las mismas cosas que el Jugador, como pescar, encontrar fósiles y recolectar bichos. Los vecinos, como lo sugiere el título de la serie, vienen en una variedad de especies animales, y actualmente existen 488 de ellos.</p>
+                    <img src="../recursos-ejercicio-complementario/villagers.jpg" alt="" class="rounded-lg shadow-md mt-4 mx-auto ">
+                    <p class="mt-4 text-justify font-mono text-sm">Hay diferentes personalidades y características encontradas en los vecinos. Todos los vecinos comparten los mismos intereses y pasatiempos, pero algunos son más evidentes en las personalidades individuales que en otros. Hay varias personalidades: Atlético, Esnob, Gruñón y Perezoso, que son personalidades masculinas, y Alegre, Dulce, Presumida y Normal que son personalidades femeninas. Las diferentes personalidades comparten rasgos similares, especialmente los equivalentes masculinos y femeninos. Hay muchas características comunes de los vecinos.</p>
+            </div>
+
+        </section>
+    </div>
+
+
+    <footer class="bg-sky-800 text-center p-4 mt-6 shadow-lg">
+        <p class="text-m text-slate-50 hover:text-yellow-400">Christian Alejandro Sánchez Herrera - 20235787</p>
+    </footer>
+
+</body>
+</html>
+
+<!-- 
+Bibliografía
+de, C. (2005, November 4). serie de videojuegos de Nintendo. Wikipedia.org; Wikimedia Foundation, Inc. https://es.wikipedia.org/wiki/Animal_Crossing#Personajes
+to, C. (2025). Vecinos. Animal Crossing Enciclopedia; Fandom, Inc. https://animalcrossing.fandom.com/es/wiki/Vecinos
+ -->
